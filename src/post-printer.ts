@@ -4,9 +4,9 @@
 
 import {PosPrintData, PosPrintOptions} from "./models";
 
-if ((process as any).type == 'renderer') {
-    throw new Error('electron-pos-printer: use remote.require("electron-pos-printer") in render process');
-}
+// if ((process as any).type == 'renderer') {
+//     throw new Error('electron-pos-printer: use remote.require("electron-pos-printer") in render process');
+// }
 
 
 const {BrowserWindow, ipcMain} = require('electron');
